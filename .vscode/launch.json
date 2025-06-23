@@ -1,6 +1,15 @@
 {
 	"version": "0.1.0",
 	"configurations": [
+		
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Run editorconfig",
+			"runtimeExecutable": "editorconfig",
+			"cwd": "${workspaceFolder}",
+			"args": []
+		},
 		{
 			"type": "node",
 			"request": "launch",
